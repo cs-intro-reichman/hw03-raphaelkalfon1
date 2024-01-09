@@ -11,7 +11,20 @@ public class LowerCase {
     * Non-letter characters are left as is.
     */
     public static String lowerCase(String s) {
-        // Replace the following statement with your code
-        return null;
+        int i = 0; 
+        int a= s.length();
+        String b = "";
+        while (i < a) {
+            char c = s.charAt(i);
+            if ( 64<c && c<91 ) {
+                b = b + (char)(c + 32);
+            }
+            else {
+               b = b + c; 
+            }
+            i++;
+        }
+
+        return b;
     }
 }
