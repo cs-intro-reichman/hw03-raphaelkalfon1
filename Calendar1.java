@@ -1,6 +1,16 @@
 /** 
  * Prints the calendars of all the years in the 20th century.
  */
+
+/*
+
+#feedback
+
+Hey Raphael,
+Please reach me out via email in yout work on the next hw.
+If there was a misunderstanding or any confusion I'd like to help you in advance
+Yam
+*/
 public class Calendar1 {	
     // Starting the calendar on 1/1/1900
 	static int dayOfMonth = 1;   
